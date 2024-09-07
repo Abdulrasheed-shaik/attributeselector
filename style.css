@@ -1,3 +1,6 @@
+:root{
+    --bg_color:lightgrey;
+}
 *{
     padding: 0;
     margin: 0;
@@ -49,7 +52,7 @@ section{
 .smallbox{
     width: 150px;
     height: 150px;
-    background-color: lightgrey;
+    background-color: var(--bg_color);
     float: left;
 }
 .t{
@@ -64,7 +67,7 @@ section{
 .imagebox{
     width: 200px;
     height: 200px;
-    background-color: lightgrey;
+    background-color: var(--bg_color);
     margin: 0 20px;
     border: 2px solid black;
 }
